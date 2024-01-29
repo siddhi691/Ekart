@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PRODUCTS</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <body>
+        <script src="static/js/bootstrap.min.js"></script>
+        <script src="static/js/popper.js"></script>
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-3">
+            <nav class="navbar navbar-expand-lg navbar bg-primary" data-bs-theme="bg" >
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index1.html"><strong>EKART</strong></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index1.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="register.html">Register</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" active" aria-current="page" href="logout.html">Logout</a>
+                      </li>
+                      <!----<li class="nav-item dropdown">-->
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      #<li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>                                        <!--END OF HEADER-->
+        </div>
+    <div class="row">
+        <div class="col-md-3 mt-4 bg-info-subtle ">
+          <h4>Filter by Category</h4>
+          <hr>
+          <p><a href="#"class="anchor">ALL</a></p>
+          <p><a href="#"class="anchor">Mobile</a></p>
+          <p><a href="#"class="anchor">Clothes</a></p>
+          <p><a href="#"class="anchor">Shoes</a></p>
+          <h4>Filter by Price</h4>
+          <hr>
+          <form method="GET"action=''>
+            <div class="mb-3">
+                <label for="Input1" class="form-label">MINIMUM:</label>
+                <input type="number" class="form-control" id="Input1" name="umin" placeholder="Min Price">
+              </div>
+              <div class="mb-3">
+                <label for="Input1" class="form-label">MAXIMUM:</label>
+                <input type="number" class="form-control" id="Input1" name="umax" placeholder="Max Price">
+              </div>
+              <div class ="mb-3">
+                <input type="submit" class="btn btn-success" value="Search">
+              </div>
+              </form>
+          <h4 class="mt-3">Sort ny Price</h4>
+          <hr>
+          <p><a href="#"class="anchor">high to low</a></p>
+          <p><a href="#"class="anchor">low to high</a></p>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-3">
+            PRODUCT LIST
+            <div class="card" style="width:100%;">
+              <img src="static/images/images.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pink long one peice </h5>
+                <p class="card-text">Detailed layer with moti and diamond layer with good volume  </p>
+                <a href="#" class="btn btn-primary">See Details</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="card" style="width:100%;">
+              <img src="http://4.bp.blogspot.com/-c22VALZlh9Y/UVqht3tQdTI/AAAAAAAAAEU/JdXb11t4tE4/s1600/9564-Sapphire.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Product2</h5>
+                <p class="card-text">Product 2 details</p>
+                <a href="#" class="btn btn-primary">See Details</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="card" style="width:100%;">
+              <img src="http://images6.fanpop.com/image/photos/34100000/Dress-dresses-34167805-1000-1500.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Product3</h5>
+                <p class="card-text">Product 3 details</p>
+                <a href="#" class="btn btn-primary">See Details</a>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-3">
+            <div class="card" style="width:100%;">
+              <img src="http://www.thedaycollections.com/wp-content/uploads/2017/12/prom_dresses_fashion_17.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Product4</h5>
+                <p class="card-text">Product 4 details</p>
+                <a href="#" class="btn btn-primary">See Details</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="card" style="width:100%;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Product5</h5>
+                <p class="card-text">Product 5 details</p>
+                <a href="#" class="btn btn-primary">See Details</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="card" style="width:100%;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Product6</h5>
+                <p class="card-text">Product 6 details</p>
+                <a href="#" class="btn btn-primary">See Details</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="card" style="width:100%;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Product 7</h5>
+                <p class="card-text">Product 7 details</p>
+                <a href="#" class="btn btn-primary">See Details</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="card" style="width:100%;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Product 8</h5>
+                <p class="card-text">Product 8 details</p>
+                <a href="#" class="btn btn-primary">See Details</a>
+              </div>
+              </div>
+        </div>                                         <!--prdt 1--> 
+        </div>                                      <!-- END OF PRODUCT LIST -->
+          </div>                                     <!--END OF ROW-->
+        <div class="row">                              <!--footer-->
+            <div class="col-md-4 bg-info-subtle p-4">
+              <h4>Address</h4>
+              <hr>
+                shreyas raaga<br>
+                flat no 204 near babar udyan<br>
+                mohanagar chinchwad<br>
+                411019<br>
+                Contact:3456782728
+            </div>                                     <!--end of adrresss-->
+            <div class="col-md-4">
+              <h4>Quick links</h4>
+              <hr>
+                <a href="index.html" class="anchor"><strong>Home</strong></a><br>
+                <a href="contact.html"class="anchor" ><strong>Contact</strong></a><br>
+                <a href="about.html"class="anchor"><strong>About</strong></a><br>
+                
+            </div>   <!--- end of quivk links-->
+            <div class="col-md-4 bg-secondary-suble p-1" >
+              <h4>Connect Us</h4>
+              <hr>
+              <h5 class="social"><a href="http://www.facebook.com " target="_self"><i class="bi bi-facebook"></i></a></h5>
+              <h5 class="social" ><a href="http://www.instagram.com " target="_self"><i class="bi bi-instagram"></i></a></h5>
+              <h5 class="social"><a href="http://www.whatsapp.com " target="_self"><i class="bi bi-whatsapp"></i></a></h5>
+              <h5 class="social"><a href="http://www.snapchat.com " target="_self"><i class="bi bi-snapchat"></i></a></h5>
+            </div>
+          </div>
+         </div>
+        </div>
+        </body>
+    </html>
